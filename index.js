@@ -1,15 +1,19 @@
 var cookie = require('cookie')
 var jwtDecode = require('jwt-decode')
 
-var getTokenDecoded = function(cookieObject, tokenKey){
+var decode = function(cookieObject, tokenKey){
   var encodedJwt = cookieObject[tokenKey]
   if (!encodedJwt) {
     return {}
   }
-  return jwtDecode(encodedJwt)
+  try{
+    return jwtDecode(encodedJwt)
+  }catch(_){
+    return {}
+  }
 }
 
 module.exports = function(cookieString, tokenKey) {
-  var documentCookie = cookie.parse(cookieString) || {}
-  return getTokenDecoded(documentCookie)
+  var cookieObject = cookie.parse(cookieString) || {}
+  return decode(cookieObject, tokenKey)
 }
