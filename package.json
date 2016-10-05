@@ -1,12 +1,12 @@
 {
   "name": "cookie-jwt",
   "version": "0.0.1",
-  "description": "",
+  "description": "Wrapper function for got jwt payload form cookie",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [],
+  "keywords": ["jwt", "cookie"],
   "author": "inuscript <inuscript@gmail.com>",
   "license": "MIT",
   "devDependencies": {

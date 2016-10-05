@@ -1,4 +1,4 @@
-Wrapper [`cookie`](https://github.com/jshttp/cookie) + [`jwt-decode`](https://github.com/auth0/jwt-decode)
+Wrapper for [`cookie`](https://github.com/jshttp/cookie) + [`jwt-decode`](https://github.com/auth0/jwt-decode)
 
 # Usage
 
