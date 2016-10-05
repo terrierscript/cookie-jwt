@@ -12,6 +12,10 @@
   ],
   "author": "inuscript <inuscript@gmail.com>",
   "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/inuscript/cookie-jwt.git"
+  },
   "devDependencies": {
     "mocha": "^3.1.0"
   },
