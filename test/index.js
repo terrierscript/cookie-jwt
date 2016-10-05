@@ -9,7 +9,7 @@ describe('cookie-jwt', function(){
 
   it('Valid cookie got payload', function(){
     var payload = cookieJwt(mockCookie, "testToken")
-    assert.deepEqual(payload, {admin: true, name: 'John Doe', sub: '1234567890' })
+    assert.deepEqual(payload, {admin: true, name: 'John Doe', sub: '1234567890' } )
   })
 
   it('Valid cookie with invalid key', function(){
