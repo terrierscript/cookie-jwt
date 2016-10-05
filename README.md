@@ -1,4 +1,7 @@
-Wrapper for [`cookie`](https://github.com/jshttp/cookie) + [`jwt-decode`](https://github.com/auth0/jwt-decode)
+Tiny wrapper function for got [jwt](http://jwt.io/) payload form cookie
+
+# Description
+This library is wrapper function combinate [`cookie`](https://github.com/jshttp/cookie) and [`jwt-decode`](https://github.com/auth0/jwt-decode)
 
 # Usage
 
