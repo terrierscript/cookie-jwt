@@ -19,4 +19,4 @@ var payload = cookieJwt(document.cookie, 'my-jwt-token-key')
 ## cookieJwt(`cookieString`, `jwtTokenKey`)
 
 * Return jwt payload.
-* If got parse error, this return **empty object (`{}`)**
+* If got parse error, this return **empty object**  (like `{}`)
