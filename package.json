@@ -1,6 +1,6 @@
 {
   "name": "cookie-jwt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiny wrapper function for got jwt payload form cookie",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,15 @@
   },
   "keywords": [
     "jwt",
-    "cookie"
+    "cookie",
+    "json web token"
   ],
   "author": "inuscript <inuscript@gmail.com>",
   "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/inuscript/cookie-jwt.git"
+  },
   "devDependencies": {
     "mocha": "^3.1.0"
   },
